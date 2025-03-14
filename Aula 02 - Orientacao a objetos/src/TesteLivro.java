@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TesteLivro {
+public class  TesteLivro {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         //Criar um objeto -> Instanciar
