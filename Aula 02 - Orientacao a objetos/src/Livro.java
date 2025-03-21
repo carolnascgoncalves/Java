@@ -7,6 +7,19 @@ public class Livro {
     String resumo;
     TipoCapaEnum tipoCapa; //COMUM, DURA
 
+
+    public Livro(){
+        tipoCapa = TipoCapaEnum.COMUM;
+    }
+    public Livro(Editora editora)
+    {
+        this.editora = editora;
+        tipoCapa = TipoCapaEnum.COMUM; //A capa por padrão vai ser comum
+        //só muda se ela for especificada na hora da criação
+
+    }
+
+
     public void exibirLivro()
     {
         System.out.println("Livro: "+ titulo);

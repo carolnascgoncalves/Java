@@ -10,18 +10,20 @@ public class  TesteLivro {
         novatec.site = "www.novatec.com";
         novatec.telefone = "1157292232";
 
-        Livro meuLivro = new Livro();
+        Livro meuLivro = new Livro(novatec);
         meuLivro.titulo = "UML 2";
         meuLivro.autor = "Gilleanes Guedes";
         meuLivro.preco = 50;
-        meuLivro.editora = novatec;
+        //meuLivro.editora = novatec;
         meuLivro.paginas = 484;
         meuLivro.resumo = "UML abordagem prática";
-        meuLivro.tipoCapa = TipoCapaEnum.DURA;
+        //meuLivro.tipoCapa = TipoCapaEnum.DURA;
 
         meuLivro.exibirLivro();
+
         //--------------------------
-        Livro livro = new Livro();
+
+        Livro livro = new Livro(novatec);
         System.out.println("Digite o nome do livro: ");
         livro.titulo = entrada.nextLine();
 
