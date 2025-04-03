@@ -1,12 +1,14 @@
+package br.com.fiap.models;
+
 public class Receita {
-    String nome;
-    String ingredientes;
-    String autor;
-    int tempo;
-    int porcoes;
-    String preparo;
-    String dificuldade;
-    String descricao;
+    public String nome;
+    public String ingredientes;
+    public String autor;
+    public int tempo;
+    public int porcoes;
+    public String preparo;
+    public String dificuldade;
+    public String descricao;
 
     //Método sem retorno
     public void exibirReceita()
