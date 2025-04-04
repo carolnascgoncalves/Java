@@ -13,17 +13,15 @@ public class  TesteLivro {
 
         Editora novatec = new Editora("NovaTec"); /*Dessa forma consegue acessar o private nome*/
         /*novatec.nome = "Nova Tec";*/
-        novatec.site = "www.novatec.com";
-        novatec.telefone = "1157292232";
+        novatec.setSite("www.novatec.com");
+        novatec.setTelefone("1157292232");
 
         Livro meuLivro = new Livro(novatec);
-        meuLivro.titulo = "UML 2";
-        meuLivro.autor = "Gilleanes Guedes";
-        meuLivro.preco = 50;
-        //meuLivro.editora = novatec;
-        meuLivro.paginas = 484;
-        meuLivro.resumo = "UML abordagem prática";
-        //meuLivro.tipoCapa = br.com.fiap.enums.TipoCapaEnum.DURA;
+        meuLivro.setTitulo("UML 2");
+        meuLivro.setAutor("Gilleanes Guedes");
+        meuLivro.setPreco(50);
+        meuLivro.setPaginas(484);
+        meuLivro.setResumo("UML abordagem prática");
 
         meuLivro.exibirLivro();
 
@@ -31,7 +29,7 @@ public class  TesteLivro {
 
         Livro livro = new Livro(novatec);
         System.out.println("Digite o nome do livro: ");
-        livro.titulo = entrada.nextLine();
+        livro.setTitulo(entrada.nextLine());
 
         System.out.println("Tipo de capa: \n" +
                 "1- Comum \n" +
@@ -41,12 +39,12 @@ public class  TesteLivro {
         int opcao = leitorNumerico.nextInt();
 
         if(opcao == 1)
-            livro.tipoCapa = TipoCapaEnum.COMUM;
+            livro.setTipoCapa(TipoCapaEnum.COMUM);
         else if(opcao == 2)
-            livro.tipoCapa = TipoCapaEnum.DURA;
+            livro.setTipoCapa(TipoCapaEnum.DURA);
         else
-            livro.tipoCapa = TipoCapaEnum.PERSONALIZADA;
+            livro.setTipoCapa(TipoCapaEnum.PERSONALIZADA);
 
-        System.out.println("Capa: "+livro.tipoCapa);
+        System.out.println("Capa: "+livro.getTipoCapa());
     }
 }
