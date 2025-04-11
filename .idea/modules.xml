@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula 01 - Entrada e saída/Aula 01 - Entrada e saída.iml" filepath="$PROJECT_DIR$/Aula 01 - Entrada e saída/Aula 01 - Entrada e saída.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 02 - Orientacao a objetos/Aula 02 - Orientacao a objetos.iml" filepath="$PROJECT_DIR$/Aula 02 - Orientacao a objetos/Aula 02 - Orientacao a objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 03 - Métodos/Aula 03 - Métodos.iml" filepath="$PROJECT_DIR$/Aula 03 - Métodos/Aula 03 - Métodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula 04 - Heranca/Aula 04 - Heranca.iml" filepath="$PROJECT_DIR$/Aula 04 - Heranca/Aula 04 - Heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Checkpoints/Checkpoints.iml" filepath="$PROJECT_DIR$/Checkpoints/Checkpoints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicio_Metodos/Exercicio_Metodos.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicio_Metodos/Exercicio_Metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicio_Pessoa/Exercicio_Pessoa.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicio_Pessoa/Exercicio_Pessoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicio_Usuario/Exercicio_Usuario.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicio_Usuario/Exercicio_Usuario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+    </modules>
+  </component>
+</project>

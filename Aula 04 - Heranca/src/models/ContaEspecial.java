@@ -13,12 +13,23 @@ public class ContaEspecial extends ContaComum{
 
     //Métodos
     public long abrirConta(int senha, double limite) {
-        super.abrirConta(senha);
         this.limiteConta = limite;
 
-        return super.nroConta;
+        return super.abrirConta(senha);
     }
     public String sacarValor(double valor){
-        return "";
+        if(this.saldo >= valor){
+            this.saldo -= valor;
+            return "Saque efetuado com sucesso";
+        }
+        else if(this.saldo+limiteConta >= valor){
+            this.saldo -=valor;
+            this.limiteConta += saldo;
+
+            return "Saque efetuado com sucesso";
+        }
+        else{
+            return "Saque não efetuado, saldo insuficiente";
+        }
     }
 }

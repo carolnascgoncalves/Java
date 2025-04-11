@@ -4,6 +4,7 @@ import enums.SituacaoEnum;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Random;
 
 public class ContaComum {
     protected Long nroConta;
@@ -67,14 +68,15 @@ public class ContaComum {
 
     //Metodos
     public Long abrirConta(int senha) {
+        Random random = new Random();
         this.senha = senha;
 
-        dtAbertura = LocalDateTime.now();
-        situacaoEnum = SituacaoEnum.ATIVA;
+        this.dtAbertura = LocalDateTime.now();
+        this.situacaoEnum = SituacaoEnum.ATIVA;
 
-        saldo = 100;
+        this.saldo = 100;
 
-        this.nroConta = 12345l;
+        this.nroConta = random.nextLong(1000);
 
         return nroConta; //prof ensina nois
     }
