@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aula01-EntradaSaida/Aula01-EntradaSaida.iml" filepath="$PROJECT_DIR$/Aula01-EntradaSaida/Aula01-EntradaSaida.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula02-OrientacaoObjetos/Aula02-OrientacaoObjetos.iml" filepath="$PROJECT_DIR$/Aula02-OrientacaoObjetos/Aula02-OrientacaoObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula03-Metodos/Aula03-Metodos.iml" filepath="$PROJECT_DIR$/Aula03-Metodos/Aula03-Metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04-Heranca/Aula04-Heranca.iml" filepath="$PROJECT_DIR$/Aula04-Heranca/Aula04-Heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05-ClasseAbstrata/Aula05-ClasseAbstrata.iml" filepath="$PROJECT_DIR$/Aula05-ClasseAbstrata/Aula05-ClasseAbstrata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula06-AtributoEstatico/Aula06-AtributoEstatico.iml" filepath="$PROJECT_DIR$/Aula06-AtributoEstatico/Aula06-AtributoEstatico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicio-Interface/Exercicio-Interface.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicio-Interface/Exercicio-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicios.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+    </modules>
+  </component>
+</project>
