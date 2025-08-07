@@ -20,13 +20,6 @@ public class Serie extends Titulo {
         this.temporadas = temporadas;
     }
 
-    public Serie() {
-    }
-
-    public Serie(String lucifer, int i, boolean b, double v, int i1, int i2, boolean b1, int i3, int i4, List<Temporada> temporadas, int i5) {
-        super();
-    }
-
     @Override
     public String toString() {
         return "Serie{" +

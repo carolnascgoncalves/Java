@@ -10,8 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/Aula06-AtributoEstatico/Aula06-AtributoEstatico.iml" filepath="$PROJECT_DIR$/Aula06-AtributoEstatico/Aula06-AtributoEstatico.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula07-Array/Aula07-Array.iml" filepath="$PROJECT_DIR$/Aula07-Array/Aula07-Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicio-Interface/Exercicio-Interface.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicio-Interface/Exercicio-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicio-Lista/Exercicio-Lista.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicio-Lista/Exercicio-Lista.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicios/Exercicios.iml" filepath="$PROJECT_DIR$/Exercicios/Exercicios.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Revisao-2SEM/Revisao-2SEM.iml" filepath="$PROJECT_DIR$/Revisao-2SEM/Revisao-2SEM.iml" />
     </modules>
   </component>
 </project>
