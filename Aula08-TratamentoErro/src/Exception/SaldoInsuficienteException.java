@@ -1,4 +1,7 @@
 package Exception;
 
-public class SaldoInsuficienteException {
+public class SaldoInsuficienteException extends RuntimeException{
+    public SaldoInsuficienteException(String mensagem){
+        super(mensagem);
+    }
 }

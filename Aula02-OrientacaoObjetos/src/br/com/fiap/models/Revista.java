@@ -1,4 +1,5 @@
 package br.com.fiap.models;
+
 import br.com.fiap.interfaces.Exemplar;
 
 public class Revista implements Exemplar {
@@ -28,22 +29,14 @@ public class Revista implements Exemplar {
         this.nome = nome;
     }
 
-    public String getDescricao() {
-        return descricao;
-    }
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-
 
     public void setPreco(double preco) {
         this.preco = preco;
     }
 
-
-    public Editora getEditora() {
-        return editora;
-    }
     public void setEditora(Editora editora) {
         this.editora = editora;
     }

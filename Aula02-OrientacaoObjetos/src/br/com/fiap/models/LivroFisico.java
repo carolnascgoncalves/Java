@@ -68,6 +68,6 @@ public class LivroFisico extends Livro{
 
     @Override
     public String getNome() {
-        return getNome();
+        return titulo;
     }
 }
