@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Agenda {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String path = "C:\\Users\\Carolina\\Desktop\\FIAP\\Java\\Exercicios\\Exercicio-Arquivo\\Agenda.txt";
+        String path = "D:\\Java\\Exercicios\\Exercicio-Arquivo\\Agenda.txt";
         int op;
 
         try{
@@ -61,15 +61,20 @@ public class Agenda {
                         break;
 
                     case 3:
+                        ManipularAgenda.lerClienteVip(path);
                         break;
 
                     case 4:
+                        ManipularAgenda.lerClientePremium(path);
                         break;
 
                     case 0:
+                        System.out.println("Saindo..");
                         break;
 
                     default:
+                        System.out.println("Opção inválida");
+                        break;
 
                 }
             }while(op != 0);

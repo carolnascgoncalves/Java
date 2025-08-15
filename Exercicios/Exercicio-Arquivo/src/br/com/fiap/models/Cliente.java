@@ -34,12 +34,16 @@ public class Cliente {
     public void setEndereco(String endereco) {this.endereco = endereco;}
 
     public Cliente(String nome, String celular, String email, String instagram, TipoEnum tipoCliente, String endereco){
+        Random random = new Random();
+
         this.nome = nome;
         this.celular = celular;
         this.email = email;
         this.instagram = instagram;
         this.tipo = tipoCliente;
         this.endereco = endereco;
+
+        codigo = random.nextInt(10000000);
     }
 
     @Override

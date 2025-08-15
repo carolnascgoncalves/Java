@@ -7,7 +7,7 @@ public class ManipularAgenda {
     public static void escrever(String caminho, Cliente cliente) throws IOException {
         BufferedWriter arquivo = new BufferedWriter(new FileWriter(caminho, true));
 
-        arquivo.append(cliente+"\n");
+        arquivo.append(cliente + "\n");
         arquivo.close();
     }
 
@@ -27,35 +27,26 @@ public class ManipularAgenda {
         BufferedReader leitura = new BufferedReader(new FileReader(caminho));
         String linha = "";
 
+        while(linha != null){
+            if(linha.contains("VIP")){
+                System.out.println(linha);
+            }
+
+            linha = leitura.readLine();
+        }
     }
 
-}
+    public static void lerClientePremium(String caminho) throws IOException {
+        BufferedReader leitura = new BufferedReader(new FileReader(caminho));
+        String linha = "";
 
+        while(linha != null){
+            if(linha.contains("PREMIUM")){
+                System.out.println(linha);
+            }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            linha = leitura.readLine();
+        }
+    }
 
 }
